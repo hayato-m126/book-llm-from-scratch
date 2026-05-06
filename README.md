@@ -36,7 +36,7 @@
 ## セットアップ
 
 ```bash
-git clone https://github.com/elith-co-jp/book-llm-from-scratch.git
+git clone https://github.com/hayato-m126/book-llm-from-scratch.git
 cd book-llm-from-scratch
 
 # uvのインストール（まだの場合）
@@ -54,32 +54,32 @@ uv sync
 
 | セクション | 内容 | Colab |
 |:--|:--|:--:|
-| 2.2 | アテンション機構 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter02/section2.ipynb) |
-| 2.3 | アテンション以外の部品 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter02/section3.ipynb) |
-| 2.4 | Transformerを作る | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter02/section4.ipynb) |
-| 2.5 | Transformerの学習と推論 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter02/section5.ipynb) |
+| 2.2 | アテンション機構 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter02/section2.ipynb) |
+| 2.3 | アテンション以外の部品 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter02/section3.ipynb) |
+| 2.4 | Transformerを作る | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter02/section4.ipynb) |
+| 2.5 | Transformerの学習と推論 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter02/section5.ipynb) |
 
 ### 3章: GPTモデルの学習
 
 | セクション | 内容 | Colab |
 |:--|:--|:--:|
-| 3.3 | 夏目漱石テキストでGPT訓練 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter03/train_gpt_soseki.ipynb) |
+| 3.3 | 夏目漱石テキストでGPT訓練 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter03/train_gpt_soseki.ipynb) |
 
 ### 4章: 大規模化と分散学習
 
 | セクション | 内容 | Colab |
 |:--|:--|:--:|
-| 4.1 | データセット前処理 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter04/section01_dataset_preprocessing.ipynb) |
+| 4.1 | データセット前処理 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter04/section01_dataset_preprocessing.ipynb) |
 | 4.2 | データ並列 / テンソル並列 | `.py`（torchrun で実行） |
 | 4.3 | GPT-2 事前学習 | `.py`（torchrun / deepspeed で実行） |
-| 4.4 | LoRA ファインチューニング | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter04/section04_lora.ipynb) |
+| 4.4 | LoRA ファインチューニング | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter04/section04_lora.ipynb) |
 
 ### 5章: アラインメント
 
 | セクション | 内容 | Colab |
 |:--|:--|:--:|
-| 5.2 | インストラクションチューニング | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter05/section2.ipynb) |
-| 5.3 | DPO | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elith-co-jp/book-llm-from-scratch/blob/main/notebooks/chapter05/section3.ipynb) |
+| 5.2 | インストラクションチューニング | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter05/section2.ipynb) |
+| 5.3 | DPO | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayato-m126/book-llm-from-scratch/blob/main/notebooks/chapter05/section3.ipynb) |
 
 ## リポジトリ構成
 
